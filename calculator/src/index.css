@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Colors */
+:root {
+  --green-circle: #34c649;
+  --red-circle: #fa5f5b;
+  --yellow-circle: #fbb940;
+  --calc-base: #4c4d4f;
+}
+
+.wrapper {
+  padding: 2em;
+}
+
+.calculator {
+  border: 1px solid;
+  border-radius: 0.75em;
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.circles {
+  background-color: var(--calc-base);
+  width: 100%;
+  min-height: 10px;
+  display: flex;
+  padding: 8px;
+}
+
+.circles div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.circles div.red {
+  background-color: var(--red-circle);
+}
+
+.circles div.yellow {
+  background-color: var(--yellow-circle);
+  margin-left: 6px;
+}
+
+.circles div.green {
+  background-color: var(--green-circle);A````````1
+  margin-left: 6px;
+}
